@@ -12,4 +12,8 @@ Its functionality resembles md2pdf but produces pdf presentation slides. I uses 
 
 # Examples
 
-A presentation with a beamer template (beamer_template.tex). The template is optimized for Chinese presentation.
+A presentation with a beamer template (beamer_template.tex). The template is optimized for Chinese presentation. Feel free to change the template and the sample document (sample.md) and compile it using:
+
+``` ./compile.sh sample.md beamer_template.tex ```
+
+Then you can check the output as output.pdf.
